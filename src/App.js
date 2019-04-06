@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="container">
         <Header />
-        <div>Content</div>
+        <div className="content">Content</div>
       </div>
     );
   }
