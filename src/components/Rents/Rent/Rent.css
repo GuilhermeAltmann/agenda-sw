@@ -1,0 +1,102 @@
+.rent {
+  display: flex;
+  justify-content: center;
+}
+
+.rent__data {
+  width: 50%;
+}
+
+.rent__image {
+  width: 100%;
+  height: auto;
+}
+
+.rent__title {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.rent__description {
+  font-size: 14px;
+  color: #969696;
+}
+
+.rent__locatario {
+  margin-top: 20px;
+}
+
+.rent__locatario--name {
+  margin-left: 10px;
+}
+
+.rent__address {
+  margin-top: 5px;
+}
+
+.rent__address--name {
+  margin-left: 10px;
+}
+
+.rent__price {
+  margin-top: 5px;
+}
+
+.rent__price--value {
+  margin-left: 10px;
+}
+
+.rent__date {
+  margin-top: 5px;
+}
+
+.rent__date--value {
+  margin-left: 10px;
+}
+
+.rent__buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rent__btn {
+  height: 30px;
+  width: 100px;
+  margin-top: 20px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.rent__btn:focus {
+  outline: none;
+}
+
+.rent__btn--danger {
+  background-color: #fff;
+  color: #d63031;
+  border: 1px solid #d63031;
+}
+
+.rent__btn--danger:hover {
+  background-color: #d63031;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.rent__btn--success {
+  background-color: #fff;
+  color: #00b894;
+  border: 1px solid #00b894;
+}
+
+.rent__btn--success:hover {
+  background-color: #00b894;
+  color: #fff;
+  transition: all 0.2s;
+}
