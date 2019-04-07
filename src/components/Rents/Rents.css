@@ -1,7 +1,7 @@
 .rents{
 
     margin-top: 60px;
-    width: 60%;
+    width: 75%;
     list-style: none;
 }
 
@@ -19,13 +19,16 @@
     border-bottom: 0.1px solid #DBDBDB;
     padding-top: 10px;
     padding-left: 5px;
+    padding-right: 5px;
     padding-bottom: 5px;
     cursor: pointer;
+    
 }
 
 .rents__title{
 
-    width: 60%;
+    width: 75%;
+    font-weight: 500;
 }
 
 .rents__item:first-child{
@@ -36,16 +39,57 @@
 .rents__item-character{
 
     padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .rents__item-character-item{
 
     font-size: 13px;
+    flex:18%;
+    color:rgb(88, 79, 79);
+    font-weight: 300;
+}
+
+.rents__item-character-item-map{
+
+    font-size: 13px;
+    flex:28%;
+    color:rgb(88, 79, 79);
+    font-weight: 300;
+}
+
+
+.rents__item-character-item:last-child{
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rents__item-character-item:last-child > .rents__item-character-icon{
+
+    margin-top:4px;
+}
+
+.rents__item-character-icon{
+
+    margin-right: 3px;
 }
 
 .rents__item:hover{
 
     background-color: rgb(243, 243, 243);
+}
+
+.rents__item-title{
+
+    font-weight: 500;
+}
+
+.rents__item-header{
+
+    display: flex;
+    justify-content: space-between;
 }
 /* 
 .rents__title{
@@ -54,3 +98,13 @@
     margin: -10px;
     padding: -10px;
 } */
+
+.rents__score{
+
+    font-weight: 300;
+}
+
+.yellow{
+
+    color: #e0d234;
+}
