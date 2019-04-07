@@ -155,3 +155,24 @@
 .entry__form-box-item:last-child {
   margin-left: 10%;
 }
+
+@media only screen and (max-width: 650px) {
+  .entry {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .entry__form--time {
+    flex-direction: column;
+  }
+
+  .entry__form--time .entry__form-box-item {
+    width: 100%;
+  }
+
+  .entry__form--time .entry__form-box-item:last-child {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}

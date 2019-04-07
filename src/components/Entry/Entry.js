@@ -59,7 +59,7 @@ class Entry extends Component {
                 placeholder="Preço"
               />
             </div>
-            <div className="entry__form-box">
+            <div className="entry__form-box entry__form--time">
               <div className="entry__form-box-item">
                 <label htmlFor="entry__initial-date">Início do período:</label>
                 <input
@@ -77,7 +77,7 @@ class Entry extends Component {
                 />
               </div>
             </div>
-            <div className="entry__form-box">
+            <div className="entry__form-box entry__form--time">
               <div className="entry__form-box-item">
                 <label htmlFor="entry__initial-time">Hora de abertura:</label>
                 <input
