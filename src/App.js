@@ -5,7 +5,6 @@ import Header from './components/Header/Header';
 import Rents from './components/Rents/Rents';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIgloo } from '@fortawesome/free-solid-svg-icons';
 import { faToilet } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarker } from '@fortawesome/free-solid-svg-icons';
@@ -20,6 +19,9 @@ import { faCar } from '@fortawesome/free-solid-svg-icons';
 
 import Rent from './components/Rents/Rent/Rent';
 import Entry from './components/Entry/Entry';
+import Login from './components/Login/Login';
+import Register from './components/Register/Register';
+import RegisterRenter from './components/RegisterRenter/RegisterRenter';
 import './App.css';
 
 library.add(faIgloo, 
@@ -41,6 +43,9 @@ class App extends Component {
           <Switch>
             <Route path="/rents" component={Rents} />
             <Route path="/entry" component={Entry} />
+            <Route path="/register" component={Register} />
+            <Route path="/register-renter" component={RegisterRenter} />
+            <Route path="/login" component={Login} />
             <Route path="/" exact component={Rent} />
             <Redirect to="/" />
           </Switch>
