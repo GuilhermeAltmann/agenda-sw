@@ -13,26 +13,18 @@ class Rents extends Component {
   render() {
     return (
       <div className="rents__box">
-        {/* <form class="s131">
-                    <div class="inner-form">
-                        <div class="input-field first-wrap">
-                            <input id="search" type="text" placeholder="What are you looking for?" />
-                        </div>
-                        <div class="input-field second-wrap">
-                            <div class="input-select">
-                            <select data-trigger="" name="choices-single-defaul">
-                                <option placeholder="">CATEGORY</option>
-                                <option>Subject A</option>
-                                <option>Subject B</option>
-                                <option>Subject C</option>
-                            </select>
-                            </div>
-                        </div>
-                        <div class="input-field third-wrap">
-                            <button class="btn-search" type="button">SEARCH</button>
-                        </div>
-                    </div>
-                </form> */}
+        <div className="rents__form-box">
+          <div className="rents__form-search">
+            <input
+              type="text"
+              placeholder="Pesquisar"
+              className="rents__form-input"
+            />
+            <button className="rents__btn rents__btn--search">
+              <FontAwesomeIcon icon="search" />
+            </button>
+          </div>
+        </div>
         <h2 className="rents__title">Salas</h2>
         <ul className="rents">
           <li className="rents__item" onClick={this.detalhar.bind(this)}>
