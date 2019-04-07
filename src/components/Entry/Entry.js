@@ -46,7 +46,7 @@ class Entry extends Component {
                 defaultValue=""
               >
                 <option value="" disabled hidden>
-                  Selecione um tipo de profissional
+                  Selecione um profissional
                 </option>
                 <option value="nutricionista">Nutricionista</option>
                 <option value="psicologa">Psicólogo</option>
