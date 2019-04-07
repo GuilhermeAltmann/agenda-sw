@@ -16,21 +16,27 @@ class Rent extends Component {
             quam autem.
           </p>
           <p className="rent__locatario">
-            Nome:{' '}
+            Locatário:{' '}
             <span className="rent__locatario--name">Paulo da Silva Sauro</span>
           </p>
-          <p className="rent__address">
+          <p className="rent__item">
             Endereço:{' '}
-            <span className="rent__address--name">
+            <span className="rent__item-value">
               Av. no Moinhos de Vento, 777
             </span>
           </p>
-          <p className="rent__price">
-            Preço: <span className="rent__price--value">$ 199.00</span>
+          <p className="rent__item">
+            Bairro: <span className="rent__item--value">Moinhos de Vento</span>
           </p>
-          <p className="rent__date">
+          <p className="rent__item">
+            Cidade: <span className="rent__item--value">Porto Alegre</span>
+          </p>
+          <p className="rent__item">
+            Preço: <span className="rent__item--value">$ 199.00</span>
+          </p>
+          <p className="rent__item">
             Horário:{' '}
-            <span className="rent__date--value">
+            <span className="rent__item--value">
               Qui, 11/06 - 09:00 até Qui, 11/06 - 11:00
             </span>
           </p>

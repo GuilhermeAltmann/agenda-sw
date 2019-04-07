@@ -31,40 +31,24 @@
   margin-left: 10px;
 }
 
-.rent__address {
+.rent__item {
   margin-top: 5px;
 }
 
-.rent__address--name {
-  margin-left: 10px;
-}
-
-.rent__price {
-  margin-top: 5px;
-}
-
-.rent__price--value {
-  margin-left: 10px;
-}
-
-.rent__date {
-  margin-top: 5px;
-}
-
-.rent__date--value {
+.rent__item--value {
   margin-left: 10px;
 }
 
 .rent__buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding-top: 30px;
 }
 
 .rent__btn {
   height: 30px;
-  width: 100px;
+  width: 300px;
   padding: 0 10px;
   border: none;
   border-radius: 4px;
@@ -93,6 +77,7 @@
   background-color: #fff;
   color: #00b894;
   border: 1px solid #00b894;
+  margin-left: 10px;
 }
 
 .rent__btn--success:hover {
