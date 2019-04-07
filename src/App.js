@@ -14,6 +14,7 @@ import { faClone } from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
 import { faCar } from '@fortawesome/free-solid-svg-icons';
+import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 
 import Rent from './components/Rents/Rent/Rent';
 import Entry from './components/Entry/Entry';
@@ -31,7 +32,8 @@ library.add(
   faClone,
   faStar,
   faStarHalfAlt,
-  faCar
+  faCar,
+  faSignInAlt
 );
 
 class App extends Component {

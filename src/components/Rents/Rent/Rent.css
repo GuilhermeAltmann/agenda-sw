@@ -21,14 +21,7 @@
 .rent__description {
   font-size: 14px;
   color: #969696;
-}
-
-.rent__locatario {
-  margin-top: 20px;
-}
-
-.rent__locatario--name {
-  margin-left: 10px;
+  text-align: justify;
 }
 
 .rent__item {
@@ -84,4 +77,38 @@
   background-color: #00b894;
   color: #fff;
   transition: all 0.2s;
+}
+
+.rent__items {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rent_item-icon {
+  width: 13px;
+  height: 13px;
+}
+
+.rent__item-text {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .rent__data {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .rent__items {
+    flex-direction: column;
+  }
+
+  .rent__items li {
+    margin-top: 10px;
+  }
 }
