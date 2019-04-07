@@ -14,6 +14,7 @@ import { faCalendarDay } from '@fortawesome/free-solid-svg-icons';
 import { faClone } from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
+import { faCar } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -28,7 +29,8 @@ library.add(faIgloo,
   faCalendarDay, 
   faClone,
   faStar,
-  faStarHalfAlt);
+  faStarHalfAlt,
+  faCar);
 
 class App extends Component {
   render() {
