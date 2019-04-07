@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 40px;
 }
 
 .rents__item{
@@ -41,6 +40,7 @@
 
     width: 80%;
     font-weight: 500;
+    margin-top: 10px;
 }
 
 .rents__item:first-child{
@@ -158,8 +158,40 @@
     margin-top: 5px; 
   }
   
-  .rents__item-image img {
+.rents__item-image img {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.rents__form-box {
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
   }
+
+
+.rents__form-input{
+
+    width: 60%;
+    margin-left: 30px;
+}
+
+.rents__form-box input {
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.rents__form-box input::placeholder,
+.rents__form-box textarea::placeholder {
+    font-family: 'Lato', sans-serif;
+}
+
+.rents__form-box input:focus {
+    outline: none;
+    border: 1px solid #81ecec;
+}
