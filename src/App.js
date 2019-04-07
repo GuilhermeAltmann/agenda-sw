@@ -14,8 +14,7 @@ import { faClone } from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
 import { faCar } from '@fortawesome/free-solid-svg-icons';
-
-
+import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 
 import Rent from './components/Rents/Rent/Rent';
 import Entry from './components/Entry/Entry';
@@ -24,15 +23,18 @@ import Register from './components/Register/Register';
 import RegisterRenter from './components/RegisterRenter/RegisterRenter';
 import './App.css';
 
-library.add(faIgloo, 
-  faToilet, 
-  faMapMarker, 
-  faMoneyBill, 
-  faCalendarDay, 
+library.add(
+  faIgloo,
+  faToilet,
+  faMapMarker,
+  faMoneyBill,
+  faCalendarDay,
   faClone,
   faStar,
   faStarHalfAlt,
-  faCar);
+  faCar,
+  faSignInAlt
+);
 
 class App extends Component {
   render() {
@@ -41,12 +43,12 @@ class App extends Component {
         <Header />
         <div className="content">
           <Switch>
-            <Route path="/rents" component={Rents} />
+            <Route path="/rent" component={Rent} />
             <Route path="/entry" component={Entry} />
             <Route path="/register" component={Register} />
-            <Route path="/register-renter" component={RegisterRenter} />
+            <Route path="/renter" component={RegisterRenter} />
             <Route path="/login" component={Login} />
-            <Route path="/" exact component={Rent} />
+            <Route path="/" exact component={Rents} />
             <Redirect to="/" />
           </Switch>
         </div>
