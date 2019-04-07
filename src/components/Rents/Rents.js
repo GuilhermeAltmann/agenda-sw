@@ -19,7 +19,12 @@ class Rents extends Component {
 
             <div className="rents__box">
                 <div className="rents__form-box">
-                    <input type="text" placeholder="Pesquisar" className="rents__form-input"/>
+                    <div className="rents__form-search">
+                        <input type="text" placeholder="Pesquisar" className="rents__form-input"/>
+                        <button className="rents__btn rents__btn--search">
+                        <FontAwesomeIcon icon="search"/> 
+                        </button>
+                    </div>
                 </div>  
                 <h2 className="rents__title">Salas</h2>
                 <ul className="rents">

@@ -170,18 +170,22 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
-  }
+}
 
+.rents__form-search{
+
+    width: 70%;
+}
 
 .rents__form-input{
 
-    width: 60%;
+    width: 80%;
     margin-left: 30px;
 }
 
 .rents__form-box input {
     height: 36px;
-    border-radius: 4px;
+    border-radius: 4px 0 0 4px;
     border: 1px solid #ccc;
     padding-left: 10px;
 }
@@ -195,3 +199,20 @@
     outline: none;
     border: 1px solid #81ecec;
 }
+
+.rents__btn {
+    height: 36px;
+    width: 10%;
+    padding: 0 10px;
+    border: none;
+    border-radius:  0 4px 4px 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.rents__btn--search {
+    background-color: #fff;
+    color: #00b894;
+    border: 1px solid #00b894;
+  }
