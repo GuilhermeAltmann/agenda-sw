@@ -1,7 +1,7 @@
 .rents{
 
     margin-top: 60px;
-    width: 70%;
+    width: 75%;
     list-style: none;
 }
 
@@ -27,7 +27,7 @@
 
 .rents__title{
 
-    width: 70%;
+    width: 75%;
     font-weight: 500;
 }
 
@@ -76,8 +76,6 @@
     margin-right: 3px;
 }
 
-
-
 .rents__item:hover{
 
     background-color: rgb(243, 243, 243);
@@ -88,6 +86,11 @@
     font-weight: 500;
 }
 
+.rents__item-header{
+
+    display: flex;
+    justify-content: space-between;
+}
 /* 
 .rents__title{
 
@@ -95,3 +98,13 @@
     margin: -10px;
     padding: -10px;
 } */
+
+.rents__score{
+
+    font-weight: 300;
+}
+
+.yellow{
+
+    color: #e0d234;
+}

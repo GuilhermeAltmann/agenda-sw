@@ -15,7 +15,17 @@ class Rents extends Component {
                 <h2 className="rents__title">Salas</h2>
                 <ul className="rents">
                     <li className="rents__item">
-                        <h4 className="rents__item-title">Sala Comercial</h4>
+                        <div className="rents__item-header">
+                            <h4 className="rents__item-title">Sala Comercial</h4>
+                            <span className="rents__score yellow">
+                                <FontAwesomeIcon className="rents__item-character-icon" icon="star"/> 
+                                <FontAwesomeIcon className="rents__item-character-icon" icon="star"/> 
+                                <FontAwesomeIcon className="rents__item-character-icon" icon="star"/> 
+                                <FontAwesomeIcon className="rents__item-character-icon" icon="star"/> 
+                                <FontAwesomeIcon className="rents__item-character-icon" icon="star"/> 
+                                5.0
+                            </span>
+                        </div>
                         <div className="rents__item-character">
                             <div className="rents__item-character-item"><FontAwesomeIcon className="rents__item-character-icon" icon="clone" /> <b>32m²</b></div>
                             <div className="rents__item-character-item"><FontAwesomeIcon className="rents__item-character-icon" icon="toilet" /> <b>1</b> Banheiro</div>
@@ -25,9 +35,18 @@ class Rents extends Component {
                         </div>
                     </li>
                     <li className="rents__item">
-                        <h4 className="rents__item-title">Sala Comercial</h4>
+                        <div className="rents__item-header">
+                            <h4 className="rents__item-title">Sala Comercial</h4>
+                                <span className="rents__score yellow">
+                                    <FontAwesomeIcon className="rents__item-character-icon" icon="star"/> 
+                                    <FontAwesomeIcon className="rents__item-character-icon" icon="star"/> 
+                                    <FontAwesomeIcon className="rents__item-character-icon" icon="star"/> 
+                                    <FontAwesomeIcon className="rents__item-character-icon yellow" icon="star-half-alt"/> 
+                                    3.5
+                                </span>
+                        </div>
                         <div className="rents__item-character">
-                            <div className="rents__item-character-item"><FontAwesomeIcon className="rents__item-character-icon" icon="clone" /> <b>32m²</b></div>
+                            <div className="rents__item-character-item"><FontAwesomeIcon className="rents__item-character-icon" icon="clone" /> <b>15m²</b></div>
                             <div className="rents__item-character-item"><FontAwesomeIcon className="rents__item-character-icon" icon="toilet" /> <b>1</b> Banheiro</div>
                             <div className="rents__item-character-item"><FontAwesomeIcon className="rents__item-character-icon" icon="calendar-day"/> <b>Quintas</b> liberados</div>
                             <div className="rents__item-character-item-map"><FontAwesomeIcon className="rents__item-character-icon" icon="map-marker" /> Porto Alegre, Cristal</div>
@@ -35,9 +54,19 @@ class Rents extends Component {
                         </div>
                     </li>
                     <li className="rents__item">
-                        <h4 className="rents__item-title">Sala Comercial em Porto Alegre</h4>
+                        <div className="rents__item-header">
+                            <h4 className="rents__item-title">Sala Comercial</h4>
+                            <span className="rents__score yellow">
+                                <FontAwesomeIcon className="rents__item-character-icon" icon="star"/> 
+                                <FontAwesomeIcon className="rents__item-character-icon" icon="star"/> 
+                                <FontAwesomeIcon className="rents__item-character-icon" icon="star"/> 
+                                <FontAwesomeIcon className="rents__item-character-icon" icon="star"/> 
+                                <FontAwesomeIcon className="rents__item-character-icon yellow" icon="star-half-alt"/>
+                                4.5
+                            </span>
+                        </div>
                         <div className="rents__item-character">
-                            <div className="rents__item-character-item"><FontAwesomeIcon className="rents__item-character-icon" icon="clone" /> <b>32m²</b></div>
+                            <div className="rents__item-character-item"><FontAwesomeIcon className="rents__item-character-icon" icon="clone" /> <b>20m²</b></div>
                             <div className="rents__item-character-item"><FontAwesomeIcon className="rents__item-character-icon" icon="toilet" /> <b>1</b> Banheiro</div>
                             <div className="rents__item-character-item"><FontAwesomeIcon className="rents__item-character-icon" icon="calendar-day"/> <b>Terças</b> liberados</div>
                             <div className="rents__item-character-item-map"><FontAwesomeIcon className="rents__item-character-icon" icon="map-marker" /> Porto Alegre, Floresta</div>
