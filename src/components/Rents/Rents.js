@@ -8,6 +8,11 @@ import './Rents.css'
 
 class Rents extends Component {
 
+    detalhar = () => {
+
+        this.props.history.push('rent');
+    }
+
     render(){
 
         return (
@@ -35,7 +40,7 @@ class Rents extends Component {
                 </form> */}
                 <h2 className="rents__title">Salas</h2>
                 <ul className="rents">
-                    <li className="rents__item">
+                    <li className="rents__item" onClick={this.detalhar.bind(this)}>
                         <div className="rents__item-header">
                             <div className="rents__item-image-space">
                                 <div className="rents__item-image">
@@ -64,7 +69,7 @@ class Rents extends Component {
                             </div> 
                         </div>
                     </li>
-                    <li className="rents__item">
+                    <li className="rents__item" onClick={this.detalhar.bind(this)}>
                         <div className="rents__item-header">
                             <div className="rents__item-image-space">
                                 <div className="rents__item-image">
@@ -92,7 +97,7 @@ class Rents extends Component {
                             </div>    
                         </div>
                     </li>
-                    <li className="rents__item">
+                    <li className="rents__item" onClick={this.detalhar.bind(this)}>
                         <div className="rents__item-header">
                             <div className="rents__item-image-space">
                                 <div className="rents__item-image">
