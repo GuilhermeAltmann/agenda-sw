@@ -11,6 +11,7 @@ import { faToilet } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarker } from '@fortawesome/free-solid-svg-icons';
 import { faMoneyBill } from '@fortawesome/free-solid-svg-icons';
 import { faCalendarDay } from '@fortawesome/free-solid-svg-icons';
+import { faClone } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -18,7 +19,7 @@ import Rent from './components/Rents/Rent/Rent';
 import Entry from './components/Entry/Entry';
 import './App.css';
 
-library.add(faIgloo, faToilet, faMapMarker, faMoneyBill, faCalendarDay);
+library.add(faIgloo, faToilet, faMapMarker, faMoneyBill, faCalendarDay, faClone);
 
 class App extends Component {
   render() {
