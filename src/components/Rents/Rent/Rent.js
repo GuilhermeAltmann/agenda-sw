@@ -22,7 +22,7 @@ class Rent extends Component {
           <p className="rent__address">
             Endereço:{' '}
             <span className="rent__address--name">
-              Av. no Moinhos de Vento, 666
+              Av. no Moinhos de Vento, 777
             </span>
           </p>
           <p className="rent__price">
